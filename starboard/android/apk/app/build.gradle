@@ -76,14 +76,14 @@ android {
         }
     }
     defaultConfig {
-        applicationId "io.gh.reisxd.tizentube.cobalt"
+        applicationId "com.cobalt.youtube.tv"
         minSdkVersion MIN_SUPPORTED_SDK_VERSION
         targetSdkVersion LATEST_SUPPORTED_SDK_VERSION
         compileSdkVersion LATEST_SUPPORTED_SDK_VERSION
         versionCode 102
         versionName "${buildId}"
         manifestPlaceholders = [
-            applicationName: "TizenTube On Android TV",
+            applicationName: "Youtube TV",
             evergreenCompatible: "${evergreenCompatible}"
         ]
         externalNativeBuild {

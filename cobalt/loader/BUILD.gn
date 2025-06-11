@@ -151,7 +151,7 @@ action("embed_loader_resources_as_header_files") {
     "embedded_resources/black_splash_screen.html",
     "embedded_resources/cobalt_splash_screen.css",
     "embedded_resources/cobalt_splash_screen.html",
-    "embedded_resources/tizentube.svg",
+    "embedded_resources/youtube.png",
     "embedded_resources/dialog.css",
     "embedded_resources/dialog.js",
     "embedded_resources/equirectangular_40_40.msh",

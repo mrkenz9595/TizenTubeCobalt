@@ -20,15 +20,14 @@
   <meta http-equiv="Content-Security-Policy" content="default-src 'none';
       script-src h5vcc-embedded://*/splash_screen.js;
       style-src h5vcc-embedded://*/cobalt_splash_screen.css;
-      img-src h5vcc-embedded://*/tizentube.svg;">
-  <link rel="stylesheet" type="text/css"
+      img-src h5vcc-embedded://*/youtube.png;">
+<link rel="stylesheet" type="text/css"
     href="h5vcc-embedded://cobalt_splash_screen.css">
 </head>
 
 <body>
   <div id="splash">
-    <img src="h5vcc-embedded://tizentube.svg" id="main-logo" alt="TizenTube Logo">
-    <div id="splash-title">TizenTube</div>
+    <img src="h5vcc-embedded://youtube.png" class="hidden">
   </div>
   <div id="loading">
     <div id="spinner">
@@ -42,7 +41,8 @@
       <div class="dot" id="dot8"></div>
     </div>
   </div>
-  <script type="text/javascript" src="h5vcc-embedded://splash_screen.js"></script>
+  <script type="text/javascript" src="h5vcc-embedded://splash_screen.js">
+  </script>
 </body>
 
 </html>

@@ -76,14 +76,14 @@ android {
         }
     }
     defaultConfig {
-        applicationId "com.cobalt.youtube.tv"
+        applicationId "com.google.android.youtube.tv"
         minSdkVersion MIN_SUPPORTED_SDK_VERSION
         targetSdkVersion LATEST_SUPPORTED_SDK_VERSION
         compileSdkVersion LATEST_SUPPORTED_SDK_VERSION
-        versionCode 102
+        versionCode 530301
         versionName "${buildId}"
         manifestPlaceholders = [
-            applicationName: "Youtube TV",
+            applicationName: "Youtube",
             evergreenCompatible: "${evergreenCompatible}"
         ]
         externalNativeBuild {
